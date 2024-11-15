@@ -69,7 +69,7 @@ The **AWS-Resource-Count-Script-SecurityAudit-Limited** provides a secure and li
     ```bash
     ./AWSInventoryScript.sh
     ```
-    The script will output the count of each resource type for all specified regions and provide a total summary at the end.
+    The script will output the count of each resource type for all specified regions and provide a total summary at the end.If you want to quickly list the existing regions, you can run the list_aws_regions.sh file.
 
 ## Security Considerations
 
