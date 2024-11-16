@@ -28,6 +28,7 @@ The **AWS-Resource-Count-Script-SecurityAudit-Limited** provides a secure and li
 - **jq**: A lightweight command-line JSON processor.
 - **Operating System**: Tested on Ubuntu via Windows Subsystem for Linux (WSL) but can be adapted for other Linux environments.
 - **IAM Permissions**: The AWS SecurityAudit Managed Policy attached to the user account.
+- **Regions**: Due to limitations in the SecurityAudit permissions, which prevent access to all Regions and CloudShell, I'm using a script to retrieve the information. The Regions are manually specified. I've provided another script to list the enabled Regions in the current account.
 
 ## Installation
 
