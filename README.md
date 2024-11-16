@@ -3,6 +3,8 @@
 
 This repository contains a custom script for performing an asset inventory of specific AWS resources across multiple regions. Designed to operate under the AWS SecurityAudit policy, the script efficiently gathers counts of EC2 instances, ECS clusters and instances, EKS clusters and nodes, and RDS instances without requiring full administrative permissions.
 
+If you want to know more about this script and where it came from, read my article ：https://medium.com/@kuroH/aws-script-inventory-5c0477603508
+
 ## Table of Contents
 - [Overview](#overview)
 - [Requirements](#requirements)
